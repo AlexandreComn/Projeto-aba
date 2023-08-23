@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/pixo-reto-sp');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: var(--color2);
+}
+
+:root {
+    --fonte1: 'Pixo Reto SP', sans-serif;
+    --color1: black;
+    --color2: white;
+    --color3: rgba(0, 0, 0, 0.616);
+    --color4: rgb(39, 29, 29);
+}
+
+header{
+    background-color: var(--color1);
+    padding: 30px;
+}
+
+header > h1{
+    color: var(--color2);
+    text-align: center;
+}
+
+header > p{
+    color: var(--color2);
+    text-align: center;
+    padding-top: 5px;
+}
+
+body{
+    background-color: var(--color4);
+}
+
+nav{
+    background-color: var(--color3);
+    text-align: center;
+    padding: 5px;
+}
+
+nav  a{
+    margin: 10px;
+}
+
+nav a:hover{
+    border: solid black;
+    background-color: var(--color1);
+    border-radius: 10px;
+    margin: 7px;
+}
+
+main div{
+    background-color: transparent;
+    width: 100vh;
+    height: 300px;
+
+}
+
+footer{
+    padding: 0px 30px 0px;
+    background-color: var(--color1);
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#tag{
+    font-family: var(--fonte1);
+}

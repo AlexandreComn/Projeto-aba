@@ -2,6 +2,8 @@
 
 @import url('https://fonts.cdnfonts.com/css/pixo-reto-sp');
 
+@media (max-width: 768px) {
+
 *{
     padding: 0px;
     margin: 0px;
@@ -20,7 +22,7 @@
 
 header{
     background-color: var(--color1);
-    padding: 30px;
+    padding: 7vh;
 }
 
 header > h1{
@@ -31,7 +33,7 @@ header > h1{
 header > p{
     color: var(--color2);
     text-align: center;
-    padding-top: 5px;
+    padding-top: 2vh;
 }
 
 body{
@@ -41,37 +43,37 @@ body{
 nav{
     background-color: var(--color3);
     text-align: center;
-    padding: 5px;
+    padding: 1vh;
 }
 
 nav  a{
-    margin: 10px;
+    margin: 1vh;
 }
 
 nav a:hover{
     border: solid black;
     background-color: var(--color1);
     border-radius: 10px;
-    margin: 7px;
+    margin: 0.5vh;
 }
 
 main div{
     background-color: transparent;
-    width: 100vh;
+    width: 100px;
     height: 300px;
 
 }
 
 footer{
-    padding: 0px 30px 0px;
+    padding: 0px 30vh 0px;
     background-color: var(--color1);
-    font-size: 30px;
+    font-size: 5vh;
     text-align: center;
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 7vh;
 }
 
 #tag{

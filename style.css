@@ -69,11 +69,6 @@ footer{
     background-color: var(--color1);
     font-size: 5vh;
     text-align: center;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    height: 7vh;
 }
 
 #tag{

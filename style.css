@@ -50,7 +50,7 @@ header > h1{
 header > p{
     color: var(--color2);
     padding-bottom: 50px;
-    font-size: 6vh;
+    
     font-family: var(--fonte3);
 }
 

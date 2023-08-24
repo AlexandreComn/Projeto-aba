@@ -2,14 +2,22 @@
 
 @import url('https://fonts.cdnfonts.com/css/pixo-reto-sp');
 
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 @media (max-width: 768px) { }
 
 :root {
     --fonte1: 'Pixo Reto SP', sans-serif;
-    --color1: black;
+    --fonte2: 'Sedgwick Ave Display', cursive;
+    --fonte3:  'Gloria Hallelujah', cursive;
+    --color1: #000000;
     --color2: white;
-    --color3: rgba(0, 0, 0, 0.616);
-    --color4: rgb(39, 29, 29);
+    --color3: #0c1821;
+    --color4: #1b2a41;
+    --color5: #324a5f;
+    --color6: #ccc9dc;
 }
 
 *{
@@ -28,17 +36,22 @@ html, body{
 header{
     background-color: var(--color1);
     text-align: center;
+    
 }
 
 header > h1{
+
     color: var(--color2);
     padding-top: 50px;
-    font-size: 10vw;
+    font-size: 6vw;
+    font-family: var(--fonte2);
 }
 
 header > p{
     color: var(--color2);
     padding-bottom: 50px;
+    font-size: 4vh;
+    font-family: var(--fonte3);
 }
 
 nav{

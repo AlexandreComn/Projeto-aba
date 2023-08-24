@@ -36,22 +36,16 @@ html, body{
 header{
     background-color: var(--color1);
     text-align: center;
-    
 }
 
 header > h1{
 
     color: var(--color2);
-    padding-top: 50px;
-    font-size: 50px;
+    padding: 30px;
+    font-size: 55px;
     font-family: var(--fonte2);
-}
-
-header > p{
-    color: var(--color2);
-    padding-bottom: 50px;
-    font-size: 20px;
-    font-family: var(--fonte3);
+    text-shadow: 1px 1px 3px ;
+    letter-spacing: 3px;
 }
 
 nav{
@@ -76,10 +70,10 @@ main div{
     width: 100px;
     height: 300px;
 
-}
+} 
 
 footer{
-    font-size: 15px;
+    font-size: 30px;
     background-color: var(--color1);
     text-align: center;
     padding: 5px;
@@ -87,4 +81,7 @@ footer{
 
 #tag{
     font-family: var(--fonte1);
+    font-weight: bolder;
+    color: red;
+    text-shadow: 3px 3px 3px cyan;
 }

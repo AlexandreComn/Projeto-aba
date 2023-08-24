@@ -48,27 +48,6 @@ header > h1{
     letter-spacing: 3px;
 }
 
-nav{
-    background-color: var(--color3);
-    padding: 1vh;
-}
-
-nav > button {
-    border: transparent;
-    width: 50px;
-    background-color: transparent;
-}
-
-nav img{
-    width: 40px;
-}
-
-nav a:hover{
-    border: solid black;
-    background-color: var(--color1);
-    border-radius: 10px;
-    margin: 0.5vh;
-}
 
 main div{
     background-color: transparent;

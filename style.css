@@ -50,12 +50,23 @@ header > h1{
 
 nav{
     background-color: var(--color3);
-    text-align: center;
     padding: 1vh;
 }
 
-nav  a{
-    margin: 1vh;
+nav > button {
+    border: transparent;
+    width: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
+
+nav img{
+    width: 40px;
 }
 
 nav a:hover{
@@ -84,6 +95,4 @@ footer{
     font-size: 30px;
     font-family: var(--fonte1);
     font-weight: bolder;
-    color: red;
-    text-shadow: 3px 3px 3px cyan;
 }

@@ -132,7 +132,7 @@ footer{
 }
 
 #home:hover::after {
-    content: "Casa"; /* Substitua pelo seu texto */
+    content: "Inicio"; /* Substitua pelo seu texto */
     position: absolute;
     top: 50%;
     left: 70px; /* Ajuste a posição conforme necessário */

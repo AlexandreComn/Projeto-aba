@@ -69,10 +69,26 @@ footer{
     font-weight: bolder;
 }
 
-/* Menu Lateral */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu Lateral 
 
 .menulateral{
-    width: 300px;
+    width: 80px;
     height: 100%;
     background-color: var(--color3);
     padding: 40px 0px 40px 1%;
@@ -119,4 +135,4 @@ ul li.item-menu a .txt-link{
 
 ul li.item-menu a .icon > i{
     font-size: 30px;
-}
+}*/

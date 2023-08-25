@@ -105,12 +105,14 @@ footer{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: background-color 0.3s;
+    
 }
 
 .icon i {
-    color: white;
+    color:  var(--color2);
 }
+
+
 
 .content {
     margin-left: 70px;

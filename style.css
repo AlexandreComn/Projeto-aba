@@ -81,7 +81,7 @@ footer{
 
 
 .sidebar {
-    height: 51%;
+    height: 300px;
     width: 50px;
     position: fixed;
     top: 10;

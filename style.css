@@ -74,44 +74,27 @@ footer{
     font-weight: bolder;
 }
 
-
-.custom-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+#cordel{
     
+    background-image: linear-gradient(to bottom, var(--color3), var(--color4), var(--color5));
+    border: solid white;
+    height: 120px;
+    width: 99%;
+    border-radius: 20px;
+    box-shadow: inset 0 0 20px black;
 }
 
-.custom-image img{
-    min-height: 80px;
-    min-width: 80px;
+#cordel > h2{
+    text-align: center;
+    padding: 40px;
+    font-family: var(--fonte3);
+    letter-spacing: 3px;
 }
 
-.image-text {
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--color2); 
-    font-size: 12px; 
-    border-radius: 10px;
-    pointer-events: none;
-}
-
-
-
+#cordel:hover {
+    cursor: pointer;
+    background-color: #00000084;
+  }
+  
 
 

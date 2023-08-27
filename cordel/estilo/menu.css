@@ -1,0 +1,60 @@
+/*Menu*/
+
+.sidebar {
+  border-radius: 10px;
+  height: 245px;
+  width: 50px;
+  position: fixed;
+  top: 200px;
+  left: 600px;
+  background-image: linear-gradient(to bottom, var(--color3), var(--color5));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+:root {
+  --fonte1: 'Pixo Reto SP', sans-serif;
+  --fonte2: 'Sedgwick Ave Display', cursive;
+  --fonte3:  'Gloria Hallelujah', cursive;
+  --color1: #000000;
+  --color2: white;
+  --color3: #0c1821;
+  --color4: #1b2a41;
+  --color5: #324a5f;
+  --color6: #ccc9dc;
+}
+
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #555;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon i {
+  color: var(--color2);
+}
+
+.content {
+  margin-left: 70px;
+  padding: 20px;
+}
+
+.icon:hover {
+  background-color: var(--color1);
+}
+
+/*menu*/

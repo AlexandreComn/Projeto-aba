@@ -6,12 +6,6 @@ sidebar.addEventListener('mouseover', () => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    var cordelDiv = document.getElementById("cordel");
-    
-    cordelDiv.addEventListener("click", function() {
-      
-      var url = "https://alexandrecomn.github.io/Projeto-Cordel/ ";
-      window.location.href = url;
-    });
-  });
+document.getElementById("cordel").addEventListener("click", function() {
+  window.location.href = "cordel/cordel.html";
+});

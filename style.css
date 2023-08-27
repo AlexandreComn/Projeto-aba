@@ -91,44 +91,25 @@ footer{
     
 }
 
-.custom-image:hover::before {
-    content: "";
+.custom-image img{
+    min-height: 80px;
+    min-width: 80px;
+}
+
+.image-text {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cor escura de overlay */
-    opacity: 1;
-    transition: opacity 0.3s ease; /* Efeito de transição suave */
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color2); 
+    font-size: 12px; 
+    border-radius: 10px;
+    pointer-events: none;
 }
-
-.custom-image:hover::after {
-    content: "Cordel Moderno"; /* Texto a ser exibido */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white; /* Cor do texto */
-    font-size: 14px;
-    text-align: center;
-    opacity: 1;
-    transition: opacity 0.3s ease; /* Efeito de transição suave */
-}
-
-.custom-image img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.custom-image::before,
-.custom-image::after {
-    content: "";
-    opacity: 0;
-}
-
- 
-
 
 
 
